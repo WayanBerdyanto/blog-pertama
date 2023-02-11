@@ -1,0 +1,88 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+}
+/* NAVBAR Container */
+.container-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #0f4c75;
+  height: 70px;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+.menu-navbar ul {
+  display: flex;
+}
+.menu-navbar ul li {
+  margin-right: 50px;
+}
+.menu-navbar ul li a {
+  color: #fff;
+}
+.judul-navbar{
+    margin-left: 20px;
+    cursor: pointer;
+}
+.blog{
+    color: #FC4F4F;
+    font-size: 24px;
+}
+/* END Navbar Container */
+
+/* Home */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url("blog.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.hero .content {
+  padding: 100px 3%;
+  max-width: 500px;
+}
+/* End Home */
+.about {
+  padding: 160px 7% 20px;
+}
+.about-img {
+  float: left;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #0f4c75;
+  font-size: 40px;
+}
+h3{
+    font-size: 24px;
+    text-align: left;
+    color: #0f4c75;
+}
+.tab {
+  padding: 14px;
+}
+.cerita p{
+    word-spacing: 5px;
+    text-align: justify;
+    line-height: 1.5;
+}
+.cerita .miring{
+    font-weight: bolder;
+    font-style: italic;
+}
